@@ -1,0 +1,36 @@
+.dashboard {
+  padding: 20px;
+}
+
+.event-log {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.event-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.arrow {
+  font-size: 24px;
+}
+
+.event-details {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.event-details:hover {
+  background-color: #f1f1f1;
+}
+
+.event-page {
+  padding: 20px;
+}
